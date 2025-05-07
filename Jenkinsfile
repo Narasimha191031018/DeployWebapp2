@@ -30,7 +30,7 @@ pipeline {
             steps {
                 // Adjust path if deploying locally, or use SCP if deploying to a remote server
                 sh """
-                cp target/${my-webapp2} ${"D:\DevopsTaining\All softwares\apache-tomcat-9.0.104\apache-tomcat-9.0.104"}
+                cp target/${my-webapp2} ${"D:\\DevopsTaining\\All softwares\\apache-tomcat-9.0.104\\apache-tomcat-9.0.104"}
                 echo "Deployment done!"
                 """
             }
